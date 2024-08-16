@@ -1,0 +1,12 @@
+C:\Users\EDY\Documents\RayTracingInCSharp\bin\Debug\RayTracingInCSharp.exe.config
+C:\Users\EDY\Documents\RayTracingInCSharp\bin\Debug\RayTracingInCSharp.exe
+C:\Users\EDY\Documents\RayTracingInCSharp\bin\Debug\RayTracingInCSharp.pdb
+C:\Users\EDY\Documents\RayTracingInCSharp\bin\Debug\AssimpNet.dll
+C:\Users\EDY\Documents\RayTracingInCSharp\bin\Debug\AssimpNet.xml
+C:\Users\EDY\Documents\RayTracingInCSharp\obj\Debug\RayTracingInCSharp.csproj.AssemblyReference.cache
+C:\Users\EDY\Documents\RayTracingInCSharp\obj\Debug\RayTracingInCSharp.Properties.Resources.resources
+C:\Users\EDY\Documents\RayTracingInCSharp\obj\Debug\RayTracingInCSharp.csproj.GenerateResource.cache
+C:\Users\EDY\Documents\RayTracingInCSharp\obj\Debug\RayTracingInCSharp.csproj.CoreCompileInputs.cache
+C:\Users\EDY\Documents\RayTracingInCSharp\obj\Debug\RayTraci.E7949D77.Up2Date
+C:\Users\EDY\Documents\RayTracingInCSharp\obj\Debug\RayTracingInCSharp.exe
+C:\Users\EDY\Documents\RayTracingInCSharp\obj\Debug\RayTracingInCSharp.pdb
