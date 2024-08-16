@@ -1,4 +1,4 @@
-﻿namespace RT2
+﻿namespace RayTracingInCSharp
 {
     public class SceneMgr
     {

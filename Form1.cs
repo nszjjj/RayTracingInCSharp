@@ -1,7 +1,7 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
 
-namespace RT2
+namespace RayTracingInCSharp
 {
     public partial class Form1 : Form
     {

@@ -2,7 +2,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace RT2
+namespace RayTracingInCSharp
 {
     public class LoadUtils
     {
@@ -37,6 +37,16 @@ namespace RT2
             {
                 // 用户取消选择
                 return null;
+            }
+        }
+
+        public static void CreateWarpFromScene(Scene scene)
+        {
+            //Dictionary < Node,WarpInfo >
+
+            foreach (var i in scene.RootNode.Children)
+            {
+
             }
         }
     }

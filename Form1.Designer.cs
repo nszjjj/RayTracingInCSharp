@@ -1,4 +1,4 @@
-﻿namespace RT2
+﻿namespace RTIC
 {
     partial class Form1
     {
