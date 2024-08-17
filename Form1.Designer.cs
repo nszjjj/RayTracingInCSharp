@@ -1,6 +1,8 @@
-﻿namespace RTIC
+﻿using System.Windows.Forms;
+
+namespace RayTracingInCSharp
 {
-    partial class Form1
+    partial class Form1 : Form
     {
         /// <summary>
         /// 必需的设计器变量。
