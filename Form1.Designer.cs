@@ -39,13 +39,14 @@ namespace RayTracingInCSharp
             // 
             this.renderOutputPort.Location = new System.Drawing.Point(12, 12);
             this.renderOutputPort.Name = "renderOutputPort";
-            this.renderOutputPort.Size = new System.Drawing.Size(678, 426);
+            this.renderOutputPort.Size = new System.Drawing.Size(1024, 768);
             this.renderOutputPort.TabIndex = 0;
             this.renderOutputPort.TabStop = false;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(713, 12);
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(1123, 12);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -57,7 +58,7 @@ namespace RayTracingInCSharp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1210, 786);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.renderOutputPort);
             this.Name = "Form1";
