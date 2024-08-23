@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace RayTracingInCSharp.Utils
 {
@@ -19,6 +20,40 @@ namespace RayTracingInCSharp.Utils
             // 计算垂直FOV的弧度
             float verticalFOVRadians = (float)Math.Atan(tanVerticalFOV) * 2.0f;
             return verticalFOVRadians;
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="horizontalFOV">水平FOV，单位是弧度</param>
+        /// <param name="focalLegnth"></param>
+        /// <returns></returns>
+        public static float CalViewportWidth(float horizontalFOV, float focalLegnth)
+        {
+            return (float)Math.Tan(horizontalFOV / 2) * focalLegnth * 2;
+        }
+
+        /// <summary>
+        /// 列主序（等会验证一下Mesh里存的是不是列主序
+        /// </summary>
+        /// <param name="viewMatrix"></param>
+        /// <returns></returns>
+        public static (Vector3, Vector3) CalViewportDir(Assimp.Matrix4x4 viewMatrix)
+        {
+            Vector3 rightDirection = new Vector3(
+            viewMatrix[0, 0],
+            viewMatrix[1, 0],
+            viewMatrix[2, 0]
+        );
+
+            // 成像面纵向方向
+            Vector3 upDirection = new Vector3(
+                viewMatrix[0, 1],
+                viewMatrix[1, 1],
+                viewMatrix[2, 1]
+            );
+
+            return (rightDirection, upDirection);
         }
     }
 }
